@@ -14,3 +14,11 @@ console.log(fruits);
 
 fruits.sort((a, b) => a.localeCompare(b));
 console.log(fruits);
+
+let nums = [10, 20, 30, 40];
+
+nums.sort((a, b) => a - b);
+console.log(nums);
+
+nums.sort((a, b) => b - a);
+console.log(nums);
