@@ -1,0 +1,6 @@
+// ICU
+//Initialization ---> Condition --> Updation
+
+let a = 10;
+let b = a++;
+console.log(b);
